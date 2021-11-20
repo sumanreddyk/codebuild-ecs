@@ -1,6 +1,6 @@
 """
 Main application file
-This application will be deployed in ECS through AWS Codebuild pipeline.
+This application will be deployed in ECS through AWS Codebuild project.
 """
 from flask import Flask
 app = Flask(__name__)
